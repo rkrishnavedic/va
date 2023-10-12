@@ -15,9 +15,11 @@ if (!domNode) {
 
 createRoot(domNode).render(
   <SwitchableFluentThemeProvider scopeId="SampleCallingApp">
+    <div><img width='320px' src='https://listening-ear.co.uk/wp-content/themes/listeningear/images/logo.png'/><h3>Video Conferencing</h3></div>
     <div className="wrapper">
       <App />
       <ShakeToSendLogs />
     </div>
+    <div>Footer</div>
   </SwitchableFluentThemeProvider>
 );
